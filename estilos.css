@@ -1,0 +1,88 @@
+/*Estilização do body*/
+body {
+  	background-color:#f4f4f4;
+  }
+
+/*Estilização da ID do conteúdo a esquerda*/
+#conteudos-esquerda{
+  /*Largura da div*/
+  width:600px;
+  /*Altura da div */
+  height:300px;
+  /* Atributo responsável por posicionar o conteúdo na parte esquerda da página */
+  float:left;
+  /* Cor de fundo da div */
+  background-color:#f4f4f4;
+  /* Cor da fonte */
+  color: #000000;
+  /* Fonte */
+  font-family: ubuntu;
+  }
+
+#imagem-direita{
+  /*Largura da div*/
+  width:600px;
+  /*Altura da div */
+  height:300px;
+  /* Atributo responsável por posicionar o conteúdo na parte direita da página, levando em conta os valores atribuidos a esquerda (lógica da cascata */
+  float:left;
+  /* Cor de fundo da div */
+  background-color:#F4f4f4;
+  /* Cor da fonte */
+  color: #000000;
+  /* Fonte */
+  font-family: ubuntu;
+  }
+
+#botao-esquerda{
+  /*Largura da div do botão a esquerda*/
+  width:300px;
+  /*Altura da div do botão a esquerda*/
+  height:150px;
+  /* Atributo responsável por posicionar o conteúdo na parte esquerda da página */
+  float:left;
+  /* Cor de fundo da div */
+  background-color:#f4f4f4;
+  color: #000000;
+  font-family: ubuntu;
+  }
+
+#botao-direita{
+  /*Largura da div do botão a esquerda*/
+  width:300px;
+  /*Altura da div do botão a esquerda*/
+  height:150px;
+  /* Atributo responsável por posicionar o conteúdo na parte direita da página, levando em conta os valores atribuidos a esquerda (lógica da cascata */
+  float:left;
+  /* Cor de fundo da div */
+  background-color:#F4f4f4;
+  /* Cor da fonte */
+  color: #000000;
+  /* Fonte */
+  font-family: ubuntu;
+  }
+
+/*Estilização da ID do header, atribuindo uma margem pelo topo da página*/
+  #header {
+margin-top: 40px;
+  }
+
+/*Estilização do botão*/
+button {
+    /* Cor de fundo do botão */
+  background-color: #f99746;
+    /* Arredondamento do botão*/
+  border-radius: 6px;
+    /* Margem "padding" do botão*/
+  padding: 15px;
+  /* Efeito pointer no botão*/
+  cursor: pointer;
+  /* Cor do texto presente no botão*/
+  color: #000000;
+  /* Borda: sem borda*/
+  border: none;
+  /* Tamanho da fonte do botão*/
+  font-size: 14px;
+  /* Fonte do botão*/
+  font-family: ubuntu;
+  }
